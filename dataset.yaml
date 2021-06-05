@@ -1,8 +1,8 @@
-train: ../../mate-detection/images/mates/ 
-val: ../../mate-detection/images/mates/ 
+train: mate-detection/images/mates/ 
+val: mate-detection/val/ 
 
 # number of classes
-nc: 1
+nc: 5
 
 # class names
-names: [ 'mate']
+names: [ 'mate', 'calabaza', 'metal', 'madera', 'plastico']
